@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+    {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Profile</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,11 +45,11 @@ function App() {
       </form>
     </div>
   </div>
-</nav>
+</nav> */}
    <Home/>
    <About/>
-   <div className='w-100 text-white bg-dark '>
-     <div className="container ">
+   <div className='w-100 text-white bg-black '>
+     <div className="container  ">
     <div className="row py-4">
       <div className="col-md-12 py-4 text-center">
       <h1>SKILLS</h1>
@@ -71,10 +71,10 @@ function App() {
       </div>
       <div className="col-md-8 py-4">
         <Skills skill="Html" range="100" />
-        <Skills skill="Css" range="80"/>
-        <Skills skill="Bootstrap" range="60"/>
-        <Skills skill="Js" range="70"/>
-        <Skills skill="React" range="50"/>
+        <Skills skill="Css" range="100"/>
+        <Skills skill="Bootstrap" range="75"/>
+        <Skills skill="Js" range="60"/>
+        <Skills skill="React" range="80"/>
       </div>
     </div>
    </div>
@@ -84,11 +84,11 @@ function App() {
     <div className="row">
     <h1 className='py-3'>Portfolio</h1>
     <Profile bg="dark" text="UI/UX DESIGN"/>
-    <Profile bg="green" text="RESPONSIVE DESIGN"/>
+    <Profile bg="danger" text="RESPONSIVE DESIGN"/>
     <Profile bg="dark" text="WEB DESIGN"/>
-    <Profile bg="green" text="MOBILE APP DESIGN"/>
-    <Profile bg="dark" text="UI/UX DESIGN"/>
-    <Profile bg="green" text="UI/UX DESIGN"/>
+    <Profile bg="danger" text="MOBILE APP DESIGN"/>
+    <Profile bg="dark" text="FRONT-END DEVELOPMENT"/>
+    <Profile bg="danger" text="BACT-END DEVELOPMENT"/>
     </div>
    </div>
 

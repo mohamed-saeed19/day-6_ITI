@@ -39,18 +39,19 @@
    
 
   }
+
+  }
   .progress{
     width: 300px !important;
   }
-  .skillPerant{
-    display: block !important;
-    /* width: 150px;
-    background: red; */
+
+  .black{
+    background-color: black !important;
   }
   .button{
     margin-left: 100px;
   }
-  }
+  
   .btn1{
     background: #000;
     color: white;

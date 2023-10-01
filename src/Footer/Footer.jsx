@@ -9,12 +9,12 @@ const Footer = () => {
                 <div>
                     <div className='d-flex'>
                         <h6>facebook : </h6>
-                        <a href='https://www.facebook.com/profile.php?id=100009338019129'><i className='fab fa-facebook mx-2'></i></a>
+                        <a className='text-danger' href='#'><i className='fab fa-facebook mx-2'></i></a>
 
                     </div>
                     <div className='d-flex'>
                         <h6>Google : </h6>
-                        <a href='https://mail.google.com/mail/u/0/#inbox'><i className="ms-4 fa-brands fa-google mx-2"></i></a>
+                        <a className='text-danger'href='#'><i className="ms-4 fa-brands fa-google mx-2"></i></a>
 
                     </div>
                 </div>
@@ -27,11 +27,11 @@ const Footer = () => {
                 <div className='footer position-absolute end-0'>
                 <h6 >Social Media : </h6>
                 <div >
-                        <a  href='https://twitter.com/ZiadAhm27793817'><i className='fab fa-twitter mx-2'></i></a>
+                        <a className='text-danger' href='#'><i className='fab fa-twitter mx-2'></i></a>
 
-                        <a  href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'><i className="fa-brands fa-linkedin mx-2"></i></a>
+                        <a className='text-danger' href='#'><i className="fa-brands fa-linkedin mx-2"></i></a>
 
-                       <a  href='https://wa.me/01559992401'><i className="fa-brands fa-whatsapp mx-2"></i></a>
+                        <a className='text-danger' href='#'><i className="fa-brands fa-whatsapp mx-2"></i></a>
                 </div>
                 </div>
             </div>
